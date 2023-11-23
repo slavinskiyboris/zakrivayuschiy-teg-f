@@ -5,7 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 html.theme-light {
-    --color-back: #123;
+    --color-back: #fff;
 }
 
 @media (prefers-color-scheme: light) {
