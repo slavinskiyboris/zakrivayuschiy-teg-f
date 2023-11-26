@@ -13,12 +13,23 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
+@keyframes move {
+  from {
+    translate: -100% 0;
+  }
+
+  to {
+    translate: 0 0;
+  }
+}
+
 .header {
   max-width: 696px;
-  border: 1px solid var(--color-text);
+  border: 2px solid var(--color-text);
   background-color: var(--background-color);
   text-align: center;
   margin: auto;
+  margin-block-start: 102px;
 }
 .header__content {
   display: flex;
@@ -71,6 +82,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  margin-block-end: 105px;
 }
 .floppy {
   block-size: 21px;
@@ -82,9 +94,26 @@
   padding: 15px 20px;
   align-items: center;
   background-color: transparent;
-  border: 1px solid var(--color-text);
+  border: 2px solid var(--color-text);
   cursor: pointer;
+  mix-blend-mode: var(--mix-blend-mode);
+  position: relative;
+  overflow: hidden;
 }
+.footer__save-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-text);
+  mix-blend-mode: lighten;
+  translate: -100% 0;
+  opacity: 0.2;
+}
+
+.footer__save-button:hover::before {
+  animation: move 3s linear forwards;
+}
+
 .footer__text {
   color: var(--color-text);
   font-family: var(--press-start-2p), sans-serif;
@@ -114,7 +143,7 @@
   gap: 30px;
   align-items: center;
   background-color: var(--background-color);
-  border: 1px solid var(--color-text);
+  border: 2px solid var(--color-text);
 }
 
 dialog {
@@ -151,26 +180,75 @@ dialog:not([open]) {
 .popup__button {
   width: 293px;
   background-color: transparent;
-  border: 1px solid var(--color-text);
+  border: 2px solid var(--color-text);
+  position: relative;
+  cursor: pointer;
+  mix-blend-mode: var(--mix-blend-mode);
+  overflow: hidden;
+
 }
+.popup__button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-text);
+  mix-blend-mode: lighten;
+  translate: -100% 0;
+  opacity: 0.2;
+}
+
+.popup__button:hover::before {
+  animation: move 3s linear forwards;
+}
+
 
 .popup__floppy {
   max-width: 39px;
 }
 .cover {
-  display: flex;
-  justify-content: center;
   margin-block-start: 104px;
+  margin-block-end: 54px;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
 }
 
 .cover__content {
-  border: 1px solid var(--color-text);
   background-color: var(--background-color);
   max-width: 696px;
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  border: 2px solid var(--color-text);
+  margin-block-end: 54px;
 }
 .cover__image {
-  /*display: block;*/
-  max-width: 694px;
+  display: block;
+  max-width: 692px;
+  /*max-height: 696px;*/
+
+}
+.cover__hard-line {
+  position: relative;
+}
+.cover__hard-line-text {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: var(--color-text);
+  font-family: var(--press-start-2p), sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  mix-blend-mode: hard-light;
+  opacity: 0.5;
+  text-shadow:
+          1px -1px 0 var(--hard-line), -1px 1px 0 var(--hard-line), 0 -1px 1px var(--hard-line), 1px 1px 1px var(--hard-line);
 }
 .cover__title {
   color: var(--color-text);
@@ -198,4 +276,36 @@ dialog:not([open]) {
   gap: 27px;
   padding: 25px 25px 0 25px;
   margin-block-end: 25px;
+  border-top: 2px solid var(--color-text);
+
+
+}
+
+
+.blur {
+  filter: blur(1rem);
+}
+
+.saturate-plus {
+  filter: saturate(300%);
+}
+.saturate-minus {
+  filter: saturate(20%);
+}
+.hue-rotate {
+  filter: hue-rotate(-330deg);
+}
+
+.sepia {
+  filter: sepia(90%);
+}
+
+.invert {
+  filter: invert(0.7);
+
+}
+
+.car8 {
+  filter: hue-rotate(100deg) blur(0.1rem);
+  opacity: 0.7;
 }

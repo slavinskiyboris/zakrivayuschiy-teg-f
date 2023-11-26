@@ -25,6 +25,8 @@
     --floppy-color: #000;
     --color-text: #000;
     --background-color: #fff;
+    --mix-blend-mode: darken;
+    --hard-line: #fff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -49,6 +51,8 @@
         --floppy-color: #000;
         --color-text: #000;
         --background-color: #fff;
+        --mix-blend-mode: darken;
+        --hard-line: #fff;
     }
 }
 
@@ -73,6 +77,8 @@
     --floppy-color: #00CC14;
     --color-text: #00CC14;
     --background-color: #000;
+    --mix-blend-mode: lighten;
+    --hard-line: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -97,5 +103,7 @@
         --floppy-color: #00CC14;
         --color-text: #00CC14;
         --background-color: #000;
+        --mix-blend-mode: lighten;
+        --hard-line: #000;
     }
 }
