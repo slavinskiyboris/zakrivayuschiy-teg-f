@@ -1,0 +1,4 @@
+.floppy {
+    block-size: 21px;
+    color: var(--floppy-color);
+}

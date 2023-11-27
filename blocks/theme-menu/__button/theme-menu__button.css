@@ -1,0 +1,21 @@
+.theme-menu__button {
+    color: var(--color-text);
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    font-family: var(--press-start-2p), sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.theme-menu__button:disabled::before {
+    content: '▶';
+    position: absolute;
+    left: -20%;
+    animation: move infinite alternate 0.5s ease-in-out;
+}

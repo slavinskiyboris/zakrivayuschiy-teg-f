@@ -1,0 +1,7 @@
+.header__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-block-start: 136px;
+    margin-block-end: 25px;
+}

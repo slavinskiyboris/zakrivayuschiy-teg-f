@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
+
+    <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
 
     <link rel="icon" href="./images/favicon.ico" sizes="any">
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="svg/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="./images/favicon.png">
     <script src="./scripts/set-theme.js"></script>
   </head>
@@ -62,15 +61,15 @@
             <p class="cover__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
             <p class="cover__text">Место для ваших воспоминаний о начале обучения.</p>
           </div>
-          <div class="cover__button">
-
+          <div class="cover__buttons">
+            <button type="button" class="cover__like-button"><span class="cover__button-text">like</span></button>
           </div>
         </article>
 
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image saturate-minus" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_saturate-minus" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">&lt;/HTML&gt;</span>
           </div>
           <div class="cover__paragraph">
@@ -85,7 +84,7 @@
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image saturate-plus" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_saturate-plus" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">&lt;CSS&gt;</span>
           </div>
           <div class="cover__paragraph">
@@ -100,7 +99,7 @@
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image hue-rotate" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_hue-rotate" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">&lt;desigions&gt;</span>
           </div>
           <div class="cover__paragraph">
@@ -115,7 +114,7 @@
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image invert" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_invert" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">care</span>
           </div>
           <div class="cover__paragraph">
@@ -130,7 +129,7 @@
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image sepia" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_sepia" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">&lt;support&gt;</span>
           </div>
           <div class="cover__paragraph">
@@ -145,7 +144,7 @@
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image blur" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_blur" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">&lt;lifes-style: none;&gt;</span>
           </div>
           <div class="cover__paragraph">
@@ -160,7 +159,7 @@
         <article class="cover__content">
           <h2 class="cover__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="cover__hard-line">
-            <img class="cover__image car8" src="images/car.png" alt="car" loading="lazy">
+            <img class="cover__image cover__image_car8" src="images/car.png" alt="car" loading="lazy">
             <span class="cover__hard-line-text">&lt;experience&gt;</span>
           </div>
           <div class="cover__paragraph">
@@ -180,7 +179,7 @@
       <div class="footer__content">
         <button type="button" class="footer__save-button" aria-label="Сохранить" onclick="window['popup-id'].showModal();" aria-controls="popup-id">
           <svg class="floppy" viewBox="0 0 39 39">
-            <use href="images/floppy.svg#floppy" class="floppy" />
+            <use href="svg/floppy.svg#floppy" class="floppy" />
           </svg>
           <span class="footer__text">Сохранить на память</span>
         </button>
@@ -190,7 +189,7 @@
     <dialog class="popup" id="popup-id">
       <div class="popup__item">
         <svg class="popup__floppy" viewBox="0 0 39 39">
-          <use href="images/floppy.svg#floppy" class="floppy" />
+          <use href="svg/floppy.svg#floppy" class="floppy" />
         </svg>
         <p class="popup__text">Вставьте дискету,&nbsp;чтобы продолжить</p>
       </div>

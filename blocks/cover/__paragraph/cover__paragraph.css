@@ -1,0 +1,10 @@
+.cover__paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    padding: 25px 25px 0 25px;
+    margin-block-end: 25px;
+    border-top: 2px solid var(--color-text);
+
+
+}

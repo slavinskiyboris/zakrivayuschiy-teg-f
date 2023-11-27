@@ -1,0 +1,6 @@
+.cover__buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 25px 0 0;
+    margin-block-end: 25px;
+}

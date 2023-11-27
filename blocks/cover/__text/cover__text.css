@@ -1,0 +1,8 @@
+.cover__text {
+    color: var(--color-text);
+    font-family: var(--inter), sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 465;
+    line-height: 21px; /* 116.667% */
+}

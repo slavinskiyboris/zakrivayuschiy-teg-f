@@ -1,0 +1,6 @@
+.theme-menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-block-end: 25px;
+}

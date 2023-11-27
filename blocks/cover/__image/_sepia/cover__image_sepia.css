@@ -1,0 +1,3 @@
+.cover__image_sepia {
+    filter: sepia(90%);
+}

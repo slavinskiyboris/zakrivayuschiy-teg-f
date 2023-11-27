@@ -1,0 +1,9 @@
+.popup {
+    max-width: 357px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: var(--background-color);
+    border: 2px solid var(--color-text);
+}

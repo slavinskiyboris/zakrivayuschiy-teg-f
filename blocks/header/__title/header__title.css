@@ -1,0 +1,9 @@
+.header__title {
+    color: var(--color-text);
+    font-family: var(--press-start-2p), sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

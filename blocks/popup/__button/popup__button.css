@@ -1,0 +1,33 @@
+.popup__button {
+    width: 293px;
+    background-color: transparent;
+    border: 2px solid var(--color-text);
+    position: relative;
+    cursor: pointer;
+    mix-blend-mode: var(--mix-blend-mode);
+    overflow: hidden;
+
+}
+
+.popup__button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-text);
+    mix-blend-mode: var(--mix-blend-mode);
+    transform: scaleX(0);
+    transform-origin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.popup__button:hover::before {
+    transform: scaleX(1);
+}
+
+.popup__button:focus {
+    outline: none;
+}
+
+.popup__button:focus-visible {
+    box-shadow: 2px 2px 0 0 var(--color-text);
+}

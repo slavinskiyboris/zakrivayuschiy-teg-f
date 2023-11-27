@@ -1,0 +1,10 @@
+.cover__title {
+    color: var(--color-text);
+    font-family: var(--inter), sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 785;
+    line-height: normal;
+    padding: 5px;
+    border-bottom: 2px solid var(--color-text);
+}

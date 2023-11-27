@@ -1,0 +1,48 @@
+/*FONTS*/
+@import url(../fonts/fonts.css);
+/*STYLES*/
+@import url(../styles/globals.css);
+@import url(../styles/style.css);
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__text/header__text.css);
+/*THEME-MENU*/
+@import url(../blocks/theme-menu/__list/theme-menu__list.css);
+@import url(../blocks/theme-menu/__button/theme-menu__button.css);
+/*FLOPPY*/
+@import url(../blocks/floppy/floppy.css);
+/*MAIN*/
+@import url(../blocks/main/main.css);
+/*COVER*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__content/cover__content.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__paragraph/cover__paragraph.css);
+@import url(../blocks/cover/__hard-line/cover__hard-line.css);
+@import url(../blocks/cover/__hard-line-text/cover__hard-line-text.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__image/_blur/cover__image_blur.css);
+@import url(../blocks/cover/__image/_car8/cover__image_car8.css);
+@import url(../blocks/cover/__image/_hue-rotate/cover__image_hue-rotate.css);
+@import url(../blocks/cover/__image/_invert/cover__image_invert.css);
+@import url(../blocks/cover/__image/_saturate-minus/cover__image_saturate-minus.css);
+@import url(../blocks/cover/__image/_saturate-plus/cover__image_saturate-plus.css);
+@import url(../blocks/cover/__image/_sepia/cover__image_sepia.css);
+@import url(../blocks/cover/__like-button/cover__like-button.css);
+@import url(../blocks/cover/__button-text/cover__button-text.css);
+@import url(../blocks/cover/__buttons/cover__buttons.css);
+/*FOOTER*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__save-button/footer__save-button.css);
+/*POPUP*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__item/popup__item.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__button-text/popup__button-text.css);
+@import url(../blocks/popup/__floppy/popup__floppy.css);

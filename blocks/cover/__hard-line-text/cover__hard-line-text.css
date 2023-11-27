@@ -1,0 +1,15 @@
+.cover__hard-line-text {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: var(--color-text);
+    font-family: var(--press-start-2p), sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    mix-blend-mode: hard-light;
+    opacity: 0.5;
+    text-shadow: 1px -1px 0 var(--hard-line), -1px 1px 0 var(--hard-line), 0 -1px 1px var(--hard-line), 1px 1px 1px var(--hard-line);
+}

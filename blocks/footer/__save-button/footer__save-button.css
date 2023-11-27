@@ -1,0 +1,35 @@
+.footer__save-button {
+    display: flex;
+    gap: 8px;
+    padding: 15px 20px;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--color-text);
+    cursor: pointer;
+    mix-blend-mode: var(--mix-blend-mode);
+    position: relative;
+    overflow: hidden;
+}
+
+.footer__save-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-text);
+    mix-blend-mode: var(--mix-blend-mode);
+    transform: scaleX(0);
+    transform-origin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.footer__save-button:hover::before {
+    transform: scaleX(1);
+}
+
+.footer__save-button:focus {
+    outline: none;
+}
+
+.footer__save-button:focus-visible {
+    box-shadow: 2px 2px 0 0 var(--color-text);
+}
