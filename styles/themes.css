@@ -20,7 +20,7 @@
 
             linear-gradient(
                     to bottom,
-                    #e7e7e7, #1a1a1a
+                    #e7e7e7 0.01%, #1a1a1a 100%
             );
     --floppy-color: #000;
     --color-text: #000;
@@ -84,7 +84,7 @@
 
             linear-gradient(
                     to bottom,
-                    #007f0c, #004306
+                    #007f0c 0%, #004306 100%
             );
     --floppy-color: #00CC14;
     --color-text: #00CC14;
