@@ -5,3 +5,9 @@
     margin-block-start: 136px;
     margin-block-end: 25px;
 }
+
+@media (width <= 475px) {
+    .header__content {
+        margin-block-start: 120px;
+    }
+}

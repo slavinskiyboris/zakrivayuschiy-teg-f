@@ -1,3 +1,5 @@
 .popup__button-text {
     line-height: 90%;
+    color: var(--button-text-color);
+    mix-blend-mode: difference;
 }

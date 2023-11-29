@@ -3,8 +3,14 @@
     font-family: var(--inter), sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 785;
+    font-weight: var(--font-wieght-title);
     line-height: normal;
-    padding: 5px;
-    border-bottom: 2px solid var(--color-text);
+    padding-left: 5px;
+    /*border-bottom: 2px solid var(--color-text);*/
+}
+
+@media (width <= 475px) {
+    .cover__title {
+        max-width: 351px;
+    }
 }

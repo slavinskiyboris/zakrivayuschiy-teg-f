@@ -1,4 +1,11 @@
 .floppy {
     block-size: 21px;
-    color: var(--floppy-color);
+    color: var(--button-text-color);
+    mix-blend-mode: difference;
+}
+
+@media (width <= 475px) {
+    .floppy {
+        block-size: 28px;
+    }
 }

@@ -1,6 +1,7 @@
 .theme-menu__list {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 5px;
     margin-block-end: 25px;
+    position: relative;
 }

@@ -3,6 +3,13 @@
     font-family: var(--inter), sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 465;
+    font-weight: var(--font-wieght-text);
     line-height: 21px; /* 116.667% */
+    max-width: 646px;
+}
+
+@media (width <= 475px) {
+    .cover__text {
+        max-width: 375px;
+    }
 }

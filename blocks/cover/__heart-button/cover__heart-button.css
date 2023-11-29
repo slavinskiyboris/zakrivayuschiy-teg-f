@@ -1,0 +1,18 @@
+.cover__heart-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0 0;
+}
+
+.cover__heart-button:focus {
+    outline: none;
+}
+
+.cover__heart-button:focus-visible {
+    outline: 2px solid #000;
+}
+
+/*.cover__heart-button:hover {*/
+/*    animation: move infinite alternate 0.3s ease;*/
+/*}*/

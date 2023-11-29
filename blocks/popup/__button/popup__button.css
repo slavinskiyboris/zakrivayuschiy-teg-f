@@ -1,6 +1,7 @@
 .popup__button {
     width: 293px;
-    background-color: transparent;
+    height: 38px;
+    background-color: var(--hard-line);
     border: 2px solid var(--color-text);
     position: relative;
     cursor: pointer;
@@ -30,4 +31,9 @@
 
 .popup__button:focus-visible {
     box-shadow: 2px 2px 0 0 var(--color-text);
+}
+@media (width <= 475px) {
+    .popup__button {
+        width: 257px;
+    }
 }

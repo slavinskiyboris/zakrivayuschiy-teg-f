@@ -1,5 +1,7 @@
 .cover {
     margin-block-start: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
     margin-block-end: 54px;
-
 }

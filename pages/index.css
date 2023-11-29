@@ -34,6 +34,7 @@
 @import url(../blocks/cover/__like-button/cover__like-button.css);
 @import url(../blocks/cover/__button-text/cover__button-text.css);
 @import url(../blocks/cover/__buttons/cover__buttons.css);
+@import url(../blocks/cover/__heart-button/cover__heart-button.css);
 /*FOOTER*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);

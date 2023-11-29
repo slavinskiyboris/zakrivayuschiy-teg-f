@@ -27,6 +27,12 @@
     --background-color: #fff;
     --mix-blend-mode: darken;
     --hard-line: #fff;
+    --button-text-color: #fff;
+    --name: #000;
+    --fill-color-start: rgba(0 0 0 / 0);
+    --fill-color-end: rgba(0 0 0 / 1);
+    --font-wieght-title: 700;
+    --font-wieght-text: 400;
 }
 
 @media (prefers-color-scheme: light) {
@@ -53,6 +59,12 @@
         --background-color: #fff;
         --mix-blend-mode: darken;
         --hard-line: #fff;
+        --button-text-color: #fff;
+        --name: #000;
+        --fill-color-start: rgba(0 0 0 / 0);
+        --fill-color-end: rgba(0 0 0 / 1);
+        --font-wieght-title: 700;
+        --font-wieght-text: 400;
     }
 }
 
@@ -79,6 +91,14 @@
     --background-color: #000;
     --mix-blend-mode: lighten;
     --hard-line: #000;
+    --button-text-color: #00CC14;
+    --name: #00CC14;
+    --fill-color-start: rgba(0 204 20 / 0);
+    --fill-color-end: rgba(0 204 20 / 1);
+    /*--font-wieght-title: 785;*/
+    /*--font-wieght-text: 465;*/
+    --font-wieght-title: 700;
+    --font-wieght-text: 400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -105,5 +125,13 @@
         --background-color: #000;
         --mix-blend-mode: lighten;
         --hard-line: #000;
+        --button-text-color: #00CC14;
+        --name: #00CC14;
+        --fill-color-start: rgba(0 204 20 / 0);
+        --fill-color-end: rgba(0 204 20 / 1);
+        /*--font-wieght-title: 785;*/
+        /*--font-wieght-text: 465;*/
+        --font-wieght-title: 700;
+        --font-wieght-text: 400;
     }
 }

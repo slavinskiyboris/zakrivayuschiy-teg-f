@@ -1,3 +1,4 @@
 .cover__hard-line {
     position: relative;
+    border-top: 2px solid var(--color-text);
 }

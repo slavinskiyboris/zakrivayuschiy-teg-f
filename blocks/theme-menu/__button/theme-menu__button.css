@@ -17,5 +17,43 @@
     content: '▶';
     position: absolute;
     left: -20%;
-    animation: move infinite alternate 0.5s ease-in-out;
+    animation: move infinite alternate 0.3s ease;
+    opacity: 0.6;
+}
+
+.theme-menu__button:disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.theme-menu__button:hover {
+    opacity: 0.6;
+}
+
+.theme-menu__button:focus {
+    outline: none;
+    opacity: 0.6;
+}
+
+.theme-menu__button:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    background-color: var(--color-text);
+    mix-blend-mode: var(--mix-blend-mode);
+    transform: scaleX(0);
+    transform-origin: 0;
+    height: 2px;
+    transition: transform 0.3s;
+}
+
+.theme-menu__button:focus-visible::after {
+    transform: scaleX(1);
+}
+
+.theme-menu__button:active {
+    opacity: 0.6;
 }

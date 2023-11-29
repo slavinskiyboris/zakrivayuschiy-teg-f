@@ -7,3 +7,9 @@
     line-height: normal;
     text-transform: uppercase;
 }
+
+@media (width <= 475px) {
+    .header__text {
+        font-size: 14px;
+    }
+}
