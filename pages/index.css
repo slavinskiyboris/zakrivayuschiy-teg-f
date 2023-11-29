@@ -8,6 +8,7 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__theme-menu/header__theme-menu.css);
 /*THEME-MENU*/
 @import url(../blocks/theme-menu/__list/theme-menu__list.css);
 @import url(../blocks/theme-menu/__button/theme-menu__button.css);
@@ -15,6 +16,8 @@
 @import url(../blocks/floppy/floppy.css);
 /*MAIN*/
 @import url(../blocks/main/main.css);
+/*EFFECTS*/
+@import url(../blocks/effects/effects.css);
 /*COVER*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__content/cover__content.css);
@@ -36,10 +39,10 @@
 @import url(../blocks/cover/__buttons/cover__buttons.css);
 @import url(../blocks/cover/__heart-button/cover__heart-button.css);
 /*FOOTER*/
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__content/footer__content.css);
-@import url(../blocks/footer/__save-button/footer__save-button.css);
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/modal/__text/modal__text.css);
+@import url(../blocks/modal/__content/modal__content.css);
+@import url(../blocks/modal/__save-button/modal__save-button.css);
 /*POPUP*/
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__text/popup__text.css);

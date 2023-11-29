@@ -1,6 +1,6 @@
 .popup__button {
     width: 293px;
-    height: 38px;
+    min-height: 38px;
     background-color: var(--hard-line);
     border: 2px solid var(--color-text);
     position: relative;
@@ -10,28 +10,6 @@
 
 }
 
-.popup__button::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: var(--color-text);
-    mix-blend-mode: var(--mix-blend-mode);
-    transform: scaleX(0);
-    transform-origin: 0;
-    transition: transform 0.5s ease-in-out;
-}
-
-.popup__button:hover::before {
-    transform: scaleX(1);
-}
-
-.popup__button:focus {
-    outline: none;
-}
-
-.popup__button:focus-visible {
-    box-shadow: 2px 2px 0 0 var(--color-text);
-}
 @media (width <= 475px) {
     .popup__button {
         width: 257px;

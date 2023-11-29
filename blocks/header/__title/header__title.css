@@ -1,11 +1,17 @@
 .header__title {
     color: var(--color-text);
-    font-family: var(--press-start-2p), sans-serif;
+    font-family: var(--standart-font), fantasy;
     font-size: 65px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__title:focus {
+    outline: none;
 }
 
 @media (width <= 475px) {

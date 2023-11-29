@@ -95,10 +95,8 @@
     --name: #00CC14;
     --fill-color-start: rgba(0 204 20 / 0);
     --fill-color-end: rgba(0 204 20 / 1);
-    /*--font-wieght-title: 785;*/
-    /*--font-wieght-text: 465;*/
-    --font-wieght-title: 700;
-    --font-wieght-text: 400;
+    --font-wieght-title: 785;
+    --font-wieght-text: 465;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -129,9 +127,7 @@
         --name: #00CC14;
         --fill-color-start: rgba(0 204 20 / 0);
         --fill-color-end: rgba(0 204 20 / 1);
-        /*--font-wieght-title: 785;*/
-        /*--font-wieght-text: 465;*/
-        --font-wieght-title: 700;
-        --font-wieght-text: 400;
+        --font-wieght-title: 785;
+        --font-wieght-text: 465;
     }
 }

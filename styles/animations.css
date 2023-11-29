@@ -51,3 +51,53 @@
         opacity: 1;
     }
 }
+
+.like-icon .sparks {
+    opacity: 0;
+}
+
+.like-icon .main-body {
+    fill: var(--fill-color-start);
+    transition: fill 0.3s linear;
+    transition-delay: 0.05s; /* Основное тело сердца при наведении курсора перекрашивайте с задержкой в 0.05s в течение 0.3s. */
+}
+
+.like-icon .core {
+    fill: var(--fill-color-start);
+    transition: fill 0.3s linear;
+    transition-delay: 0.03s;
+
+}
+
+.like-icon:hover .core {
+    fill: var(--fill-color-end);
+}
+
+.like-icon:hover .main-body {
+    fill: var(--fill-color-end);
+}
+
+.like-icon:active .main-body,
+.like-icon:active .core {
+    fill: var(--sparks);
+}
+
+.like-icon.is-liked .main-body,
+.like-icon.is-liked .core {
+    fill: var(--sparks);
+}
+
+.like-icon.is-liked .contour {
+    fill: var(--sparks);
+    transition: fill 0.3s 0.06s;
+}
+
+.like-icon.is-liked .heart {
+    transform-origin: center;
+    animation: heart 0.3s ease-in 0.1s alternate;
+}
+
+.like-icon.is-liked .sparks {
+    transform-origin: center;
+    animation: sparks 0.3s ease-in 0.3s alternate;
+}

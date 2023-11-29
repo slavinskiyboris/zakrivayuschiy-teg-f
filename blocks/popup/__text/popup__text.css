@@ -1,6 +1,6 @@
 .popup__text {
     color: var(--color-text);
-    font-family: var(--press-start-2p), sans-serif;
+    font-family: var(--standart-font), fantasy;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

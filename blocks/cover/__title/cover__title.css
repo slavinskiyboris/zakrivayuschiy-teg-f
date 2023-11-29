@@ -1,9 +1,9 @@
 .cover__title {
     color: var(--color-text);
-    font-family: var(--inter), sans-serif;
+    font-family: var(--variabl-font), sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: var(--font-wieght-title);
+    font-variation-settings: 'wght' var(--font-wieght-title, 700), 'slnt' 0;
     line-height: normal;
     padding-left: 5px;
     /*border-bottom: 2px solid var(--color-text);*/

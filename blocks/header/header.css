@@ -1,8 +1,9 @@
 .header {
     max-width: 696px;
+    min-width: 371px;
     border: 2px solid var(--color-text);
     background-color: var(--background-color);
-    text-align: center;
-    margin: auto;
+    /*text-align: center;*/
+    margin: 0 auto;
     margin-block-start: 102px;
 }
