@@ -1,13 +1,8 @@
 .popup__button {
     width: 293px;
     min-height: 38px;
-    background-color: var(--hard-line);
-    border: 2px solid var(--color-text);
-    position: relative;
-    cursor: pointer;
-    mix-blend-mode: var(--mix-blend-mode);
-    overflow: hidden;
-
+    display: inline-block;
+    padding: 0;
 }
 
 @media (width <= 475px) {

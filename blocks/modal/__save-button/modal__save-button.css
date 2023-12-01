@@ -1,16 +1,3 @@
-.modal__save-button {
-    display: flex;
-    gap: 8px;
-    padding: 15px 20px;
-    align-items: center;
-    background-color: var(--hard-line);
-    border: 2px solid var(--color-text);
-    cursor: pointer;
-    mix-blend-mode: var(--mix-blend-mode);
-    position: relative;
-    overflow: hidden;
-}
-
 @media (width <= 475px) {
     .modal__save-button {
         flex-direction: column;

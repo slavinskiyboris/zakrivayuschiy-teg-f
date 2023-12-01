@@ -1,0 +1,9 @@
+.text__header {
+    color: var(--color-text);
+    font-family: var(--standart-font), fantasy;
+    /*font-size: var(--general-text-size);*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

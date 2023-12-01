@@ -1,6 +1,6 @@
 .cover__content {
     background-color: var(--background-color);
-    max-width: 696px;
+    /*max-width: 696px;*/
     display: grid;
     grid-template-rows: repeat(4, min-content);
     border: 2px solid var(--color-text);

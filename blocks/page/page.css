@@ -1,0 +1,14 @@
+.page {
+    min-inline-size: 320px;
+    min-block-size: 100dvb;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@supports (font-variation-settings: normal) {
+    .page {
+        font-family: var(--variabl-font), sans-serif;
+        font-variation-settings: 'wght' var(--font-wieght-text, 400), 'slnt' 0;
+    }
+}

@@ -2,7 +2,8 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding: 5px 0 0;
+    padding: 0;
+    height: 36px;
 }
 
 .cover__heart-button:focus {
@@ -10,9 +11,5 @@
 }
 
 .cover__heart-button:focus-visible {
-    outline: 2px solid #000;
+    outline: 2px solid var(--color-text);
 }
-
-/*.cover__heart-button:hover {*/
-/*    animation: move infinite alternate 0.3s ease;*/
-/*}*/

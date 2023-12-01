@@ -1,15 +1,22 @@
 .cover__text {
     color: var(--color-text);
     font-family: var(--variabl-font), sans-serif;
-    font-size: 18px;
+    font-size: var(--section-text-size);
     font-style: normal;
-    font-weight: var(--font-wieght-text);
+    font-variation-settings: 'wght' var(--font-wieght-text, 400);
     line-height: 21px; /* 116.667% */
-    /*max-width: 646px;*/
+    justify-self: end;
 }
 
 @media (width <= 475px) {
     .cover__text {
         max-width: 320px;
+    }
+}
+
+
+@media (width <= 475px) {
+    .legacy {
+        max-width: 317px;
     }
 }

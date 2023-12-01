@@ -1,11 +1,6 @@
 .modal__text {
-    font-family: var(--standart-font), fantasy;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     position: relative;
     z-index: 2;
     mix-blend-mode: difference;
-    color: var(--button-text-color);
 }

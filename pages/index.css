@@ -2,7 +2,6 @@
 @import url(../fonts/fonts.css);
 /*STYLES*/
 @import url(../styles/globals.css);
-@import url(../styles/style.css);
 /*HEADER*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -12,10 +11,16 @@
 /*THEME-MENU*/
 @import url(../blocks/theme-menu/__list/theme-menu__list.css);
 @import url(../blocks/theme-menu/__button/theme-menu__button.css);
+@import url(../blocks/theme-menu/__button/_text/theme-menu__button_text.css);
 /*FLOPPY*/
 @import url(../blocks/floppy/floppy.css);
-/*MAIN*/
+/*MAIN/PAGE*/
 @import url(../blocks/main/main.css);
+@import url(../blocks/page/page.css);
+/*TEXT*/
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/__header/text__header.css);
+@import url(../blocks/text/__uppercase/text__uppercase.css);
 /*EFFECTS*/
 @import url(../blocks/effects/effects.css);
 /*COVER*/
@@ -28,7 +33,7 @@
 @import url(../blocks/cover/__hard-line-text/cover__hard-line-text.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__image/_blur/cover__image_blur.css);
-@import url(../blocks/cover/__image/_car8/cover__image_car8.css);
+@import url(../blocks/cover/__image/_hue-rotate-blur/cover__image_hue-rotate-blur.css);
 @import url(../blocks/cover/__image/_hue-rotate/cover__image_hue-rotate.css);
 @import url(../blocks/cover/__image/_invert/cover__image_invert.css);
 @import url(../blocks/cover/__image/_saturate-minus/cover__image_saturate-minus.css);
@@ -43,6 +48,8 @@
 @import url(../blocks/modal/__text/modal__text.css);
 @import url(../blocks/modal/__content/modal__content.css);
 @import url(../blocks/modal/__save-button/modal__save-button.css);
+/*DIALOG*/
+@import url(../blocks/dialog/dialog.css);
 /*POPUP*/
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__text/popup__text.css);

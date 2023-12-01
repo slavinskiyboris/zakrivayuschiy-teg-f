@@ -1,11 +1,5 @@
 .header__title {
-    color: var(--color-text);
-    font-family: var(--standart-font), fantasy;
     font-size: 65px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
 }

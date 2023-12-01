@@ -8,10 +8,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
     mix-blend-mode: hard-light;
     opacity: 0.5;
     text-shadow: 1px -1px 0 var(--hard-line), -1px 1px 0 var(--hard-line), 0 -1px 1px var(--hard-line), 1px 1px 1px var(--hard-line);
+}
+
+@media (width <= 475px) {
+    .cover__hard-line-text {
+        top: 25px;
+        right: 10px;
+    }
 }
 @supports (
   (text-stroke: 1px var(--hard-line)) or
