@@ -4,6 +4,8 @@
     cursor: pointer;
     padding: 0;
     height: 36px;
+    outline: 2px solid transparent;
+    transition: outline 0.3s ease;
 }
 
 .cover__heart-button:focus {
